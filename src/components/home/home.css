@@ -1,0 +1,27 @@
+.home-tittle {
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 17rem;
+    margin-bottom: 0;
+}
+.home-sub-t {
+text-align: center;
+font-size: 2rem;
+margin-top: 0;
+}
+.social-list-container{
+    margin: auto;
+    /* border: 1px solid red; */
+    width: 200px;
+}
+.social-list{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    
+}
+.social-list li {
+    list-style: none;
+    font-size: 3rem;
+
+}
