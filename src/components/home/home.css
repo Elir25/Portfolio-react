@@ -8,20 +8,30 @@
 text-align: center;
 font-size: 2rem;
 margin-top: 0;
+margin-bottom: 0;
 }
 .social-list-container{
     margin: auto;
     /* border: 1px solid red; */
-    width: 200px;
+    width: 150px;
 }
 .social-list{
     display: flex;
     justify-content: space-between;
     padding-left: 0px;
-    
 }
 .social-list li {
     list-style: none;
-    font-size: 3rem;
+    font-size: 2rem;
 
 }
+.home-desc-container {
+    width: 40%;
+    margin: auto;
+}
+.home-desc-container h2{
+    padding-top: 200px;
+    text-align: center;
+    margin-bottom: 0;
+    color: gray;
+} 
