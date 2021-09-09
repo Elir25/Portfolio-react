@@ -1,12 +1,12 @@
 .home-tittle {
     text-align: center;
-    font-size: 4rem;
-    margin-top: 17rem;
+    font-size: 3.5rem;
+    margin-top: 13rem;
     margin-bottom: 0;
 }
 .home-sub-t {
 text-align: center;
-font-size: 2rem;
+font-size: 1rem;
 margin-top: 0;
 margin-bottom: 0;
 }
@@ -29,9 +29,26 @@ margin-bottom: 0;
     width: 40%;
     margin: auto;
 }
-.home-desc-container h2{
-    padding-top: 200px;
+ 
+.welcome-botton {
+    padding-top: 4rem;
+    font-size: 1.3rem;
     text-align: center;
     margin-bottom: 0;
     color: gray;
-} 
+}
+
+@media (min-width: 900px) {
+    /*changing styles designing for larger screens*/
+    .home-tittle {
+        font-size: 4rem;
+        margin-top: 17rem;   
+    }
+    .home-sub-t {
+        font-size: 2rem;
+        }
+
+        .welcome-botton {
+            padding-top: 200px;
+        }
+}

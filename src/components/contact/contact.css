@@ -1,0 +1,22 @@
+.contact-section {
+    background-color: rgb(23, 23, 23);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.contact-content {
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+    width: 80%;
+    margin: auto;
+}
+.contact-headline {
+    margin-top: 0;
+    margin-bottom: 4rem;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.contact-content h2 {
+    color: white;
+}

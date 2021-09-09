@@ -11,20 +11,11 @@ const Home = () => {
             <li><i className="fab fa-linkedin"></i></li>
             <li><i className="fas fa-envelope"></i></li>
             <li><i className="far fa-file"></i></li>
-            {/* <li><i className="fab fa-behance"></i></li>
-            <li><i className="fab fa-dribbble"></i></li> */}
         </ul>
         </div>
         <div className="home-desc-container">
-            <h2>Welcome to my portfolio <i className="fas fa-caret-down"></i></h2>
-            {/* <p>
-            I’m a junior web developer with a Design background who enjoys working in front-end
-             development but also finds out backend development very interesting.<br></br>
-            I’m always looking forward to improving my skills and reach new professional 
-            opportunities, so I decided to start my journey as a web developer. In January 
-            2021 I joined Migracode Barcelona, a tech academy for refugees and migrants. 
-            I’m looking forward to bring that passion to a full-time role.
-            </p> */}
+            <h2 className="welcome-botton">Welcome to my portfolio <i className="fas fa-caret-down"></i></h2>
+            
         </div>
         </>
     )

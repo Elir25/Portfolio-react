@@ -1,0 +1,47 @@
+.form-container {
+    width: 20rem;
+    /* border: 1px solid red; */
+    margin: auto;
+}
+
+input, textarea{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    background-color: rgb(107, 107, 107);
+    border-style: none;
+}
+label{
+    
+    color: white;
+}
+input::placeholder {
+    color: black;
+}
+input[type=text] {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+textarea {
+    padding-top: 7px;
+    /* padding-bottom: 30px; */
+    height: 5rem;
+}
+
+input[type=submit] {
+    width: 100px;
+    padding: 5px 10px 5px 10px;
+    background-color: white;
+}
+
+@media (min-width: 900px) {
+
+    .form-container {
+        width: 35rem;
+        /* border: 1px solid red; */
+    }
+    input, textarea{
+        width: 100%;
+    }
+}
