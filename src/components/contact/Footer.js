@@ -23,13 +23,8 @@ const Footer = () => {
                 <i className="fas fa-envelope"></i>
                 <p>elirendiles@gmail.com</p>
                 </div>
-                </li>
-            <li>
-            <div className="li-content">
-                <i className="far fa-file"></i>
-                <p>CV</p>
-                </div>
-                </li>
+            </li>
+            
         </ul>
         </div>
         </div>

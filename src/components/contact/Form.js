@@ -19,7 +19,7 @@ const Form = () => {
             placeholder="Your email"
             ></input><br></br>
             <label for="message">Message</label><br></br>
-            <textarea>Some text...</textarea>
+            <textarea></textarea>
             <input type="submit"value="submit"></input>
             
         </form>

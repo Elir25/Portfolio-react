@@ -1,6 +1,11 @@
-import React from 'react';
+import React, {  forwardRef } from 'react';
 import './home.css'
+import ScrolldownBtn from './ScrolldownBtn';
+// import ScrolldownBtn from './ScrolldownBtn';
+
+
 const Home = () => {
+
     return (
         <>
         <h1 className="home-tittle">ELIALBA RENDILES</h1>
@@ -13,12 +18,10 @@ const Home = () => {
             <li><i className="far fa-file"></i></li>
         </ul>
         </div>
-        <div className="home-desc-container">
-            <h2 className="welcome-botton">Welcome to my portfolio <i className="fas fa-caret-down"></i></h2>
-            
-        </div>
+        
         </>
     )
 }
 
 export default Home;
+

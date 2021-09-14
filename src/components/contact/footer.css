@@ -15,11 +15,11 @@
     display: flex;
     list-style: none;
     font-size: 2rem;
-
 }
 
 .social-list-footer li p {
     font-size: 12px;
+
 
 }
 
@@ -34,8 +34,14 @@
         padding-left: 0px;
     }
     .li-content {
-        display: flex;
-        /* border: 1px solid red; */
+        /* display: flex;
+        border: 1px solid red; */
+        color: rgb(107, 107, 107);
+    }
 
+    .social-list-footer li p {
+        font-size: 15px;
+    
+    
     }
 }

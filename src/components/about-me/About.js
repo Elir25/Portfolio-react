@@ -1,13 +1,14 @@
-import React from 'react';
+import React, { forwardRef} from 'react';
 import './about.css';
 
 
 
-const About = () => {
+const About = forwardRef(( {}, ref) => {
+
     return (
         <div className="about-section-container">
             <div className="about-content">
-                <h1 className="about-h1">ABOUT ME</h1>
+                <h1 className="about-h1" ref={ref}>ABOUT ME</h1>
                 <div className="desc-main-text-container">
                     <div className="desc-sec1">
                         <p className="desc-text">
@@ -40,6 +41,6 @@ const About = () => {
             </div>
         </div>
     )
-}
+})
 
 export default About;
