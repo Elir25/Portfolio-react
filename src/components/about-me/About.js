@@ -4,11 +4,11 @@ import './about.css';
 
 
 const About = forwardRef(( {}, ref) => {
-
+//Using the ref prop to pass the property to the element that we want to scroll to
     return (
-        <div className="about-section-container">
+        <div className="about-section-container" ref={ref}>
             <div className="about-content">
-                <h1 className="about-h1" ref={ref}>ABOUT ME</h1>
+                <h1 className="about-h1" >ABOUT ME</h1>
                 <div className="desc-main-text-container">
                     <div className="desc-sec1">
                         <p className="desc-text">

@@ -8,3 +8,26 @@ h1, h2, h3 {
 /* p {
     font-family: 'Montserrat', sans-serif;
 } */
+
+.btn-div{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+.scroll-down-btn {
+    text-align: center;
+    margin: auto;
+    border: none;
+    background-color: white;
+    font-size: 1.3rem;
+    font-family: 'Chivo', sans-serif;
+    font-weight: bold;
+    color: gray;
+    padding-top: 10rem;
+    transition: 1s;
+
+    /* padding-bottom: 5rem; */
+}
+.scroll-down-btn:hover {
+    color: black;
+}

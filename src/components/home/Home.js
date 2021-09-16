@@ -1,6 +1,6 @@
-import React, {  forwardRef } from 'react';
+import React from 'react';
 import './home.css'
-import ScrolldownBtn from './ScrolldownBtn';
+// import ScrolldownBtn from './ScrolldownBtn';
 // import ScrolldownBtn from './ScrolldownBtn';
 
 
